@@ -29,7 +29,7 @@ public class MenuController {
 
 
     @PostMapping(path = "/menu")
-    public Menu addMenu(@RequestBody Menu menu){
+    public Menu addMenu(@RequestBody  Menu menu){
 
         return menuRepository.save(menu);
 
