@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @date Date : 2020年07月25日 15:08
  */
 @RestController
-public class MenuController {
+public class TestController {
 
     @Value("${userName}")
     private String userName;
